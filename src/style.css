@@ -9,9 +9,14 @@ body {
 
 header {
     position: fixed;
+    left: 0;
+    top: 0;
     height: 69px;
     width: 100%;
     border-bottom: 1px solid seashell;
+    margin-top: 0;
+    background-color: inherit;
+    z-index: 999;
 }
 
 nav {
@@ -31,18 +36,64 @@ header p {
     float: left;
     text-align: left;
     margin-left: 10px;
-    margin-top: 5px;
-    overflow: hidden;
+    margin-top: 10px;
 }
-
-
 
 .header-logo img {
     height: 50px;
 }
 
-.content {
+.main-content {
     margin-top: 70px;
+    z-index: 5;
+}
+
+.mission-statement-background {
+    max-width: 1200px;
+    height: 700px;
+    background-image: url(../media/img-mission-background.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mission-statement-text{
+    background-color: black;
+    padding: 0 1em;
+}
+
+.totm-content {
+    max-width: 1000px;
+    border: 1px solid pink;
+    margin: 50px auto;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content:center;
+    justify-content: center;
+}
+
+.gallery-item {
+    border: 1px dotted green;
+    width: 300px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.gallery-item img {
+    height: 200px;
+    width: 300px;
+    margin: 0;
+    border: 1px solid blue;
+}
+
+.gallery-item h4 {
+    border: 1px solid red;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 576px) {
