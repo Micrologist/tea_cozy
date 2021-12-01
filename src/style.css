@@ -45,6 +45,8 @@ header p {
 
 .main-content {
     margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
     z-index: 5;
 }
 
@@ -66,7 +68,6 @@ header p {
 
 .totm-content {
     max-width: 1000px;
-    border: 1px solid pink;
     margin: 50px auto;
 }
 
@@ -78,7 +79,6 @@ header p {
 }
 
 .gallery-item {
-    border: 1px dotted green;
     width: 300px;
     margin-right: 15px;
     margin-left: 15px;
@@ -88,11 +88,9 @@ header p {
     height: 200px;
     width: 300px;
     margin: 0;
-    border: 1px solid blue;
 }
 
 .gallery-item h4 {
-    border: 1px solid red;
     margin-top: 10px;
 }
 
