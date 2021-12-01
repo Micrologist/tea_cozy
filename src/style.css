@@ -94,6 +94,38 @@ header p {
     margin-top: 10px;
 }
 
+.location-content {
+    min-height: 500px;
+    background-image: url(../media/img-locations-background.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:center;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.location-content h2 {
+    width: 100%;
+    
+}
+
+.location-box {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    height: 300px;
+    padding-top: 0.11px;
+    line-height: 1.7em;
+    margin: 20px;
+}
+
+#copyright-notice {
+    text-align: left;
+    margin: 20px;
+}
+
 @media screen and (max-width: 576px) {
     .header-logo {
         display: none;
