@@ -98,4 +98,19 @@ header p {
     .header-logo {
         display: none;
     }
+    
+    body {
+        font-size: 16px;
+    }
+
+    nav {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+
+    header {
+        height: 45px;
+    }
 }
+
